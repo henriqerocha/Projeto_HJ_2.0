@@ -1,0 +1,159 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 900px;
+    justify-content: center;
+}
+
+header{
+    width: 1280px;
+    border-bottom: 1px solid #31AFB4;
+   
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoTop{
+    display: flex;
+    align-items: center;
+}
+
+.menuTop{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menuTop ul{
+    display: flex;
+}
+
+.menuTop ul li{
+    list-style: none;
+}
+
+.menuTop li a{
+    padding: 15px;
+    text-decoration: none;
+    color: #115571;
+    
+}
+.menuTop a:hover{
+    background-color: #31AFB4;
+    color: white;
+}
+
+.active{
+    background-color: #31AFB4;
+}
+
+#backImage{
+    margin-top: 10px;
+    background-image: url('../images/fundo-craque2.png');
+    /*background: rgb(30,224,255);
+background: linear-gradient(153deg, rgba(30,224,255,1) 0%, rgba(16,84,249,0.5555264342064952) 58%, rgba(0,212,255,0.5359185910692401) 100%);*/
+    background-position: center;
+    background-size: cover;
+}
+
+.conteudoWallpaper{
+    height: 690px;
+}
+
+.topWallpaper{
+    display: flex;
+    height: 690px;
+}
+
+.imageTop img{
+    margin-top: 50px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.option1,
+.option2,
+.option3{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 60px;
+    border-radius: 50px;
+}
+
+.option1{
+    display: flex;
+    background-color: rgba(255, 2, 102,0.8);
+}
+.option2{
+    background-color: rgba(255, 117, 151,0.9);
+}
+.option3{
+    background-color: rgba(52, 43, 45, 0.95);
+}
+
+.titleOption1,
+.titleOption2,
+.titleOption3{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;  
+}
+
+.titleOption2{
+    color: #D71386;
+    font-size: 30px;
+}
+
+.titleOption3{
+    color: white;
+}
+
+.topWallpaper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botWallpaper{
+    display: flex;
+    width: 70%;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#conteudo{
+    background-color: rgba(255, 117, 151,0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
