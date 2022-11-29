@@ -57,20 +57,21 @@ header{
 background: linear-gradient(153deg, rgba(30,224,255,1) 0%, rgba(16,84,249,0.5555264342064952) 58%, rgba(0,212,255,0.5359185910692401) 100%);*/
     background-position: center;
     background-size: cover;
+    height: 900px;
 }
 
 .conteudoWallpaper{
     height: 690px;
 }
 
-.topWallpaper{
-    display: flex;
-    height: 690px;
-}
 
-.imageTop img{
-    margin-top: 50px;
-    width: 600px;
+.imageTop{
+    background-image: url(/images/montagem-design.png);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    height: 90vh;
+    width: 50vw;
 }
 
 .flex-column{
@@ -136,8 +137,11 @@ background: linear-gradient(153deg, rgba(30,224,255,1) 0%, rgba(16,84,249,0.5555
 }
 
 .topWallpaper{
+    height: 690px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .botWallpaper{
@@ -175,6 +179,7 @@ background: linear-gradient(153deg, rgba(30,224,255,1) 0%, rgba(16,84,249,0.5555
     margin-bottom: 50px;
 }
 .botaoIniciar{
+    margin-top: 5vh;
     display: flex;
     justify-content: center;
 }
