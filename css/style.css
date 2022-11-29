@@ -52,7 +52,7 @@ header{
 
 #backImage{
     margin-top: 10px;
-    background-image: url('../images/fundo-craque2.png');
+    background-image: url('../images/fundo-craque.png');
     /*background: rgb(30,224,255);
 background: linear-gradient(153deg, rgba(30,224,255,1) 0%, rgba(16,84,249,0.5555264342064952) 58%, rgba(0,212,255,0.5359185910692401) 100%);*/
     background-position: center;
@@ -61,17 +61,17 @@ background: linear-gradient(153deg, rgba(30,224,255,1) 0%, rgba(16,84,249,0.5555
 }
 
 .conteudoWallpaper{
-    height: 690px;
 }
 
 
 .imageTop{
-    background-image: url(/images/montagem-design.png);
-    background-size: cover;
+    background-image: url('/images/montagem-design.png');
+    background-size: contain;
+    background-repeat: no-repeat;
     position: relative;
     background-position: center;
-    height: 90vh;
-    width: 50vw;
+    height: 80vh;
+    width: 40vw;
 }
 
 .flex-column{
@@ -137,7 +137,6 @@ background: linear-gradient(153deg, rgba(30,224,255,1) 0%, rgba(16,84,249,0.5555
 }
 
 .topWallpaper{
-    height: 690px;
     display: flex;
     flex-direction: column;
     justify-content: center;
